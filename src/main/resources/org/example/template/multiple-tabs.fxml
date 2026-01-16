@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="715.0" prefWidth="1282.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.template.controllers.MultipleTabsController">
+   <children>
+      <TabPane fx:id="tabPane" layoutX="-3.0" layoutY="-3.0" prefHeight="775.0" prefWidth="1327.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="tab1">
+            <content>
+                <fx:include source="tab1.fxml"/>
+            </content>
+          </Tab>
+          <Tab text="tab2">
+            <content>
+                <fx:include source="tab2.fxml"/>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
